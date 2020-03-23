@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700,800&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 10px;
+    background: #ffff00;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 30px;
+}
+
+.nav-link {
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#home {
+    background: yellow;
+    color: white;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 500;
+}
+
+h2 {
+    font-size: 700;
+}
+
+.link-button {
+    text-decoration: none;
+    text-align: center;
+    background: #ffffff;
+    cursor: pointer;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    color: black;
+    font-size: 1.8em;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.link-button:hover {
+    color: yellow;
+}
+
+#Real friend {
+
+    background-color: yellow;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+#Real friend div {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+#Real friend {
+
+    background-color: yellow;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+#portfolio div {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+
+    progress[value]::-webkit-progress-bar {
+        background-color: gray;
+        border-radius: 2px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25 inset);
+    }
+
+    #details ul {
+        font-size: 1.5em;
+    }
+
+    #end {
+        background-color: black;
+        color: white;
+    }
+
+    .input {
+        line-height: 2em;
+        width: 350px;
+        border-radius: 3px;
+        border-color: black;
+    }
+
+    /*
+logo text
+nav-link text
+larger text in header(h1)
+bio heading(h2)
+details,end(h3)
+regular text
+*/
